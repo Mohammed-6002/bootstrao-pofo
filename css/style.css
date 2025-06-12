@@ -1,5 +1,7 @@
 body {
   font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .social-icon {
@@ -15,5 +17,7 @@ body {
 }
 
 .height {
-    height: 75vh;
+  height: 82vh;
 }
+
+
