@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Profile</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" />
 </head>
+
 <body class="bg-dark text-white">
 
   <div class="container-fluid d-flex flex-column min-vh-100">
@@ -13,17 +15,17 @@
     <header>
       <nav class="navbar navbar-expand-md navbar-dark bg-secondary py-3">
         <div class="container-fluid">
-          <a class="navbar-brand fw-bold text-white px-2 me-4" href="profile.html">Profile</a>
+          <a class="nav-link fw-bold text-white px-2" href="profile.html">Profile</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
-              <li class="nav-item me-3">
+              <li class="nav-item me-1">
                 <a class="nav-link fw-bold text-white px-2" href="projecten.html">Projecten</a>
               </li>
-              <li class="nav-item me-3">
+              <li class="nav-item me-1">
                 <a class="nav-link fw-bold text-white px-2" href="protfolio.html">Protfolio</a>
               </li>
               <li class="nav-item">
@@ -35,20 +37,56 @@
       </nav>
     </header>
 
-    <main class="flex-grow-1 d-flex align-items-center justify-content-center py-5">
-      <div class="container">
-        <div class="row align-items-center justify-content-center text-center text-md-start">
-          <div class="col-md-4 d-flex justify-content-center mb-4 mb-md-0">
-            <img src="img/galaxy.png" alt="Galaxy" class="img-fluid rounded-circle" style="max-width: 300px;" />
+    <main class="container py-5">
+      <h1 class="text-center mb-4">Profile</h1>
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+          <div class="card mb-4 shadow-sm">
+            <div class="card-body">
+              <h2 class="card-title">Over mijn portfolio</h2>
+              <p>Mijn portfolio website toont mijn werk aan potentiële werkgevers. Het heeft een schone, moderne
+                uitstraling en is eenvoudig te navigeren.</p>
+            </div>
           </div>
-          <div class="col-md-7">
-            <h1 class="mb-4">Profile</h1>
-            <p class="fs-5">
-              Mijn naam is Bob, ik ben 18 jaar oud en een gedreven eerstejaars student Software Development bij Mondriaan.<br /><br />
-              Het vakgebied van programmeren fascineert me enorm, en ik ben constant bezig met het leren van nieuwe technieken en het ontwikkelen van verschillende projecten. Het gevoel van vooruitgang en de creatie van iets uit het niets, dat is wat me drijft.<br /><br />
-              Daarnaast spreek ik drie talen: Nederlands, Engels en Arabisch, wat me in staat stelt om met een breed scala aan mensen te communiceren en nieuwe perspectieven te ontdekken.<br /><br />
-              Ik ben altijd nieuwsgierig naar het onbekende en sta open voor nieuwe ervaringen die mijn kennis en persoonlijke ontwikkeling kunnen verrijken.
-            </p>
+
+          <div class="card mb-4 shadow-sm">
+            <div class="card-body">
+              <h2 class="card-title">Inspiratiebronnen</h2>
+              <div class="row">
+                <div class="col-md-4 mb-3">
+                  <img src="img/inspiratie1.jpg" alt="Minimalistisch design" class="img-fluid rounded">
+                </div>
+                <div class="col-md-4 mb-3">
+                  <img src="img/inspiratie2.jpg" alt="Kleurgebruik" class="img-fluid rounded">
+                </div>
+                <div class="col-md-4 mb-3">
+                  <img src="img/inspiratie3.jpg" alt="Navigatie" class="img-fluid rounded">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-4 shadow-sm">
+            <div class="card-body">
+              <h2 class="card-title">Mijn kleurenschema</h2>
+              <div class="d-flex gap-3 mb-3">
+                <div class="color-box bg-primary p-4 rounded"></div>
+                <div class="color-box bg-secondary p-4 rounded"></div>
+                <div class="color-box bg-light p-4 rounded border"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <h2 class="card-title">Website structuur</h2>
+              <ul class="list-unstyled">
+                <li class="mb-2">• <a href="profile.html">Homepagina</a></li>
+                <li class="mb-2">• <a href="projecten.html">Projecten</a></li>
+                <li class="mb-2">• <a href="portfolio.html">Over mij</a></li>
+                <li>• <a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
@@ -62,4 +100,5 @@
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
