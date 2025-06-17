@@ -23,6 +23,7 @@
               <a class="fw-bold text-white me-4 px-2" href="projecten.html">Projecten</a>
               <a class="fw-bold text-white me-4 px-2" href="protfolio.html">Protfolio</a>
               <a class="fw-bold text-white px-2" href="contacten.html">Contacten</a>
+              <!-- Removed skills.html link as skills are now part of profile.html -->
             </div>
             <div class="d-flex flex-row gap-3 mt-3 d-md-none">
               <a href="https://www.facebook.com" class="social-icon d-flex align-items-center justify-content-center">
@@ -59,8 +60,8 @@
       </nav>
     </header>
 
-    <main class="row flex-grow-1 align-items-center justify-content-center my-4">
-      <div class="col-md-4 height d-flex justify-content-center mb-4 mb-md-0">
+    <main class="row flex-grow-1 align-items-center justify-content-center my-4 height">
+      <div class="col-md-4 d-flex justify-content-center mb-4 mb-md-0">
         <img src="img/galaxy.png" alt="Galaxy" class="img-fluid rounded-circle" />
       </div>
       <div class="col-md-6">
@@ -71,6 +72,51 @@
           Daarnaast spreek ik drie talen: Nederlands, Engels en Arabisch, wat me in staat stelt om met een breed scala aan mensen te communiceren en nieuwe perspectieven te ontdekken.<br /><br />
           Ik ben altijd nieuwsgierig naar het onbekende en sta open voor nieuwe ervaringen die mijn kennis en persoonlijke ontwikkeling kunnen verrijken.
         </p>
+
+        <!-- Skills Section -->
+        <section class="mt-5">
+          <h2 class="mb-4 text-center text-md-start">Skills</h2>
+          <div class="row">
+            <div class="col-md-6">
+              <!-- Progress Bars -->
+              <div class="mb-3">
+                <label for="htmlProgress" class="form-label">HTML</label>
+                <div class="progress" id="htmlProgress" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar bg-info" style="width: 90%;">90%</div>
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="cssProgress" class="form-label">CSS</label>
+                <div class="progress" id="cssProgress" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar bg-primary" style="width: 85%;">85%</div>
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="jsProgress" class="form-label">JavaScript</label>
+                <div class="progress" id="jsProgress" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar bg-warning" style="width: 75%;">75%</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <!-- Skills Description -->
+              <p>Hier deel ik mijn technische en niet-technische vaardigheden.</p>
+
+              <h3>Technisch</h3>
+              <ul>
+                <li><strong>HTML/CSS:</strong> Ervaring in het bouwen van websites met responsief design.</li>
+                <li><strong>JavaScript:</strong> Kennis van interactieve en dynamische functies.</li>
+              </ul>
+
+              <h3>Soft Skills</h3>
+              <ul>
+                <li><strong>Communicatie:</strong> Sterk in mondelinge en schriftelijke communicatie.</li>
+                <li><strong>Teamwork:</strong> Ervaring met samenwerken aan gemeenschappelijke doelen.</li>
+                <li><strong>Probleemoplossend:</strong> Creatief in het oplossen van complexe problemen.</li>
+              </ul>
+            </div>
+          </div>
+        </section>
       </div>
     </main>
 
